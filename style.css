@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Hanalei&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Butterfly+Kids&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-image: url(assets/paisagem.jpg);
+    background-size: cover;
+}
+header{
+  display: flex;
+  justify-content: center;
+}
+.divHeader{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+h1{
+  font-family: 'Hanalei', cursive;
+  font-size: 4rem;
+  color: #b30047;
+}
+h2{
+  font-family: 'Butterfly Kids', cursive;
+  font-size: 2rem;
+  color: #00ff00;
+  margin-left: 15px;
+}
+main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+#divBusca{
+  background-color:#80d4ff;
+  border:solid 1px;
+  border-radius:15px;
+  width:300px;
+}
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-style:italic;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:260px;
+}
+#btnBusca{
+  width: 30px;
+}
+iframe{
+  width: 300px;
+}
+section{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 35px;
+}
+.divVideo{
+  background-size: cover;
+  margin-left: 10px;
+}
